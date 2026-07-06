@@ -12,7 +12,7 @@ drag **Sticky Notes - Markdown** into your Applications folder.
 The app is signed and notarized by Apple, so it opens with no security warnings,
 and it keeps itself up to date automatically after that.
 
-**Requires macOS 26 (Tahoe) or later.**
+**Requires macOS 14 Sonoma or later.**
 
 ## What's new
 
