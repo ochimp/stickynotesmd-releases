@@ -1,5 +1,21 @@
 # Changelog
 
+## Version 1.3.0 Update (2026-09-01)
+
+### Enhancements
+
+- **Copy button on code blocks.** Every fenced code block now has a copy button in its top-right corner. For terminal blocks (`bash`, `zsh`, `sh`, `console`, PowerShell) the copied text is tidied up so it pastes straight into a terminal and runs: prompt characters are stripped, a pasted session copies just the commands, and the last command gets its own newline so it actually executes.
+- **Code you can select.** Code blocks are now real text: drag to select, ⌘C to copy, and right-click for Copy or Select All. Double-click anywhere in a block to select the whole thing at once.
+- **Checked items move out of the way.** Tick a checkbox in preview mode and the item drops below the rest of its checklist, so what is still outstanding stays at the top. Sub-items move with their parent, and un-ticking leaves the item where it is.
+- **Search your notes by title.** The Note List has a search field that filters as you type.
+- **New iPhone companion app.** Sticky Notes is now on iPhone too, sharing the same notes over iCloud: a searchable, sortable list and a detail screen that switches between a Markdown editor and the same rendered preview the Mac shows, checkboxes and syntax-highlighted code included. It is a universal purchase, so the iPhone app comes with the Mac App Store version at no extra cost.
+- **Markdown keyboard bar on iPhone.** A scrolling row above the keyboard with headings, bold, italic, strikethrough, bulleted / numbered / checklists, indent and outdent, inline code, code fences, quotes, links, and dividers, plus direct keys for the punctuation iOS buries two layers deep. Pressing return continues a list and renumbers it, exactly as on the Mac.
+
+### Bug Fixes
+
+- Tapping a list, checklist, or heading control on an empty line now inserts the marker instead of doing nothing.
+- Selecting a note and then searching for something that filters it out no longer leaves the old note showing in the detail pane.
+
 ## Version 1.2.0 Update (2026-07-18)
 
 ### Enhancements
